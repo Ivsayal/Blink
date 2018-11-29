@@ -1,4 +1,10 @@
-.banner {
-    max-width: 1000px;
-    height: auto;
+.contenedor {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.cajas {
+    justify-content: space-around;
 }
