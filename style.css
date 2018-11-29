@@ -11,4 +11,9 @@
 
 .servicios {
     background-color: pink;
+    justify-content: space-around;
+}
+
+.detalle {
+
 }
