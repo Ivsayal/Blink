@@ -1,7 +1,6 @@
 .contenedor {
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
     width: 100%;
 }
 
@@ -23,16 +22,20 @@
     font-weight: bold; 
 }
 
+.quienes {
+    background-color: #f6f7eb
+}
 .cajas {
     justify-content: space-around;
 }
 
 .servicios {
-    background-color: pink;
+    background-color: #ffdb4d;
     justify-content: space-evenly;
+    width: 100%;
 }
 
-.descripcionserv{
+.descripcion{
     text-align: center;
 }
 
@@ -47,4 +50,16 @@
     border: 1px solid black;
     border-radius: 50%;
     margin-right: 1em;
+}
+
+.clientes {
+    background-color:#e94f37;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.portfolio {
+    background-color: #44bba4;
+    justify-content: space-evenly;
+    width: 50%;
 }
