@@ -1,29 +1,65 @@
 .contenedor {
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    align-content: center;
-    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
 }
 
+.encabezado {
+    display: flex;
+    height: 8vw;
+}
+
+.menu {
+    justify-content: space-around;
+    align-content: margin-right;
+    width: 80%;
+    align-items: baseline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
+}
+
+.quienes {
+    background-color: #f6f7eb
+}
 .cajas {
     justify-content: space-around;
 }
 
 .servicios {
-    background-color: pink;
-    justify-content: space-around;
+    background-color: #ffdb4d;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
-.jefa{
-    display:flex;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: space-between;
-    color: black;
-    width: 200px;
+.descripcion{
+    text-align: center;
 }
 
-.jefa div img{
+
+.detalle li{
+    list-style: none;
+    padding-top: 1em;
+}
+
+.detalle span{
+    padding: 0.5em;
+    border: 1px solid black;
     border-radius: 50%;
-    width: 200px;
+    margin-right: 1em;
+}
 
+.clientes {
+    background-color:#e94f37;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.portfolio {
+    background-color: #44bba4;
+    justify-content: space-evenly;
+    width: 50%;
 }
