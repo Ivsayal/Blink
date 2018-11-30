@@ -23,8 +23,17 @@
 }
 
 .quienes {
-    background-color: #f6f7eb
+    background-color: #f6f7eb;
+    text-align: center;
+    justify-content: space-evenly;
+    width:100%;
 }
+
+.jefa div img{
+    width: 150px;
+    border-radius: 50%;
+}
+
 .cajas {
     justify-content: space-around;
 }
@@ -63,3 +72,4 @@
     justify-content: space-evenly;
     width: 50%;
 }
+
