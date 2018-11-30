@@ -73,3 +73,11 @@
     width: 50%;
 }
 
+div.contenedor.banner{
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    background-image: url(banner_home.jpg);
+    width: 100%;
+    height: 450px;
+}
