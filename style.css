@@ -6,7 +6,18 @@
 
 .encabezado {
     display: flex;
-    height: 8vw;
+    height: 4vw;
+}
+
+.ancho1{
+    width: 25%;
+}
+
+.ancho2{
+    width: 70%;
+}
+.logo img{
+    height: 80%;
 }
 
 .menu {
